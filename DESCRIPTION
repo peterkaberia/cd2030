@@ -5,7 +5,8 @@ Authors@R: c(
       person("David", "Kariuki", , "hello@damurka.com", role = c("aut", "cre"), 
              comment = c(ORCID = "0009-0003-6159-1107")),
       person("Martin", "Mutua", role = c("aut")),
-      person("Peter", "Kaberia", , "pkaberia@aphrc.org", role = c("aut")),
+      person("Peter", "Kaberia", , "pkaberia@aphrc.org", role = c("aut"), 
+            comment = c(ORCID = "0000-0002-8082-4549")),
       person("Godfrey", "Adero", , "gadero@aphrc.org", role = c("aut")),
       person("Rornald", "Muhumuza", , "rmuhumuza@aphrc.org", role = c("aut")),
       person("African Population and Health Research Center (APHRC)", 
@@ -18,7 +19,7 @@ Description: cd2030 is an R package for managing and validating data formatted
     guidelines and generates standardized data quality reports, enabling users to 
     focus on analysis and interpretation.
 License: AGPL (>= 3)
-URL: https://damurka.github.io/cd2030/, https://github.com/damurka/cd2030
+URL: https://aphrcwaro.github.io/cd2030/, https://github.com/aphrcwaro/cd2030
 Imports: 
     cli,
     dplyr,
@@ -53,5 +54,5 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
 LazyData: true
-BugReports: https://github.com/damurka/cd2030/issues
+BugReports: https://github.com/aphrcwaro/cd2030/issues
 Config/testthat/edition: 3
